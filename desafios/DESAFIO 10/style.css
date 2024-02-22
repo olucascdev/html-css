@@ -1,0 +1,100 @@
+@charset "UTF-8";
+@font-face {
+    font-family:"idroid";
+    src: url(fontes/idroid.otf) format("opentype");
+    
+}
+body{
+    background-color: rgb(209, 253, 238);
+}
+header{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to top,rgb(0, 100, 25),rgb(4, 179, 112));
+    background-attachment: local;
+    display: block;
+    padding-top: 20px;
+    color: white;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.359);
+
+}
+header > p {
+    font-size: 1em;
+}
+
+
+nav{
+    text-align: left;
+    margin: 10px;
+    padding: 5px;
+    
+}
+
+
+nav > a {
+    padding-right: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+main {
+    background-color: white;
+    width: 800px;
+    height: 2710px;
+    padding: 20px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.267);
+    margin-top: -8.7px;
+    display: flex;
+    margin: 0 auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div > picture{
+    margin: auto;
+}
+
+div > h1{
+    font-family: idroid;
+    color: rgb(0, 100, 25);
+
+}
+h2{
+    font-family: idroid;
+    color: rgb(0, 100, 25);
+    background-image: linear-gradient(to right, rgba(3, 166, 112, 0.293), white);
+    padding-left: 5px;
+    
+}
+div> p{
+    text-indent: 25px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+div#videozin {
+    background-color: darkgreen;
+    padding: 60px;
+    
+    
+}
+
+article {
+    background-color: rgb(209, 253, 238);
+    text-indent: 25px;
+    padding: 5px 10px ;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+
+}
+
+
+
+
