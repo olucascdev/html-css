@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de Iframes</title>
+    <style>
+        body{
+            
+        }
+        iframe{
+            width: 500px;
+            height: 800px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça sua escolha </h1>
+    <ul>
+        <li><a href="pag1.html" target="frame">Primeira pag</a></li>
+        <li><a href="pag2.html"target="frame">Segunda pag</a></li>
+        <li><a href="pag03.html"target="frame">Terceira pag</a></li>
+    </ul>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, quia repellendus alias expedita fuga officiis harum ad unde veniam est reiciendis perferendis eligendi sed repudiandae. Quod cumque veritatis sequi sint?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dolores animi velit iusto corrupti vel, ipsa suscipit quis neque explicabo, dicta dolorum non natus facilis, ullam sint tempore? Officiis, illo.</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>escolha uma das op acima </h1>" frameborder="0"></iframe>
+    <p>Infelizmente seu navegador não é compativel</p>
+</body>
+</html>
