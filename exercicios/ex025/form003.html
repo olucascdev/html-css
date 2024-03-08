@@ -4,34 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
+    <style>
+        fieldset{
+            background-color: aquamarine;
+            border-radius: 25px;
+            position: relative;
+            width: 500px;
+            height:100vh;
+           
+        }
+    </style>
 </head>
 <body>
     <h1>Test Form</h1>
     <form action="cadastro.php" method="get" autocomplete="on">
-        <p>
-            <label for="inome">Nome</label>
-            <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome Completo" autocomplete="name">
-        </p>
-        <p>
-            <label for="imedia">Média</label>
-            <input type="number" name="media" id="imedia" min="0" max="10" placeholder="0 a 10" step="0.5" value="5">
-        </p>
-        <p>
-            <label for="imes">Periodo letivo</label>
-            <input type="month" name="mes" id="imes" value="2020-07">
-        </p>
-        <p>
-            <label for="idia">Dia da Prova</label>
-            <input type="date" name="dia" id="idia">
-        </p>
-        <p>
-            <label for="ihora">Hora da prova</label>
-            <input type="time" name="hora" id="ihora">
-        </p>
-        <p>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
-        </p>
+        <fieldset>
+            <legend>Dados </legend>
+                <p>
+                    <label for="inome">Nome</label>
+                    <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome Completo" autocomplete="name">
+                </p>
+                <p>
+                    <label for="imedia">Média</label>
+                    <input type="number" name="media" id="imedia" min="0" max="10" placeholder="0 a 10" step="0.5" value="5">
+                </p>
+                <p>
+                    <label for="imes">Periodo letivo</label>
+                    <input type="month" name="mes" id="imes" value="2020-07">
+                </p>
+                <p>
+                    <label for="idia">Dia da Prova</label>
+                    <input type="date" name="dia" id="idia">
+                </p>
+                <p>
+                    <label for="ihora">Hora da prova</label>
+                    <input type="time" name="hora" id="ihora">
+                </p>
+                <p>
+                    <label for="imail">Email</label>
+                    <input type="email" name="email" id="imail" placeholder="user@email.com" required>
+                </p>
+                <p>
+                    <label for="itele">Telefone</label>
+                    <input type="tel" name="telefone" id="itele" required>
+                </p>
+                <p>
+                    
+                    <label for="iesbas"><input type="checkbox" name="esfut" id="iesbas">Basquete <br></label>
+                    <input type="checkbox" name="esfut" id="ifut"><label for="ifut">futebol</label> <br>
+                    <input type="checkbox" name="volei" id="ivolei"><label for="ivolei">vôlei</label> <br>
+                </p>
+                <p>
+                    <input type="radio" name="sexo" id="isxmas"><label for="isxmas">Masculino</label><br>
+                    <input type="radio" name="sexo" id="isxfem"> <label for="isxfem">Feminino</label>
+                </p>
+                <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </p>
+        </fieldset>
+        
     </form>
 </body>
 </html>
