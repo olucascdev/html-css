@@ -2,13 +2,14 @@
 
 *{
     padding: 0px;
-    margin: 0px;
+    margin: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 h1{
     text-align: center;
     padding: 50px;
+    font-size: 48px;
     
 }
 
@@ -17,10 +18,9 @@ h1{
     background-color: rgb(20, 20, 20);
     color: white;
     padding: 50px;
-    margin-bottom: 20px;
-    width: 550px;
-    height: 150px;
+    margin: 20px;
     border-radius: 5px;
+    
 
 }
 .nome{
@@ -37,12 +37,12 @@ h2{
     font-size: 28px;
 }
 
-.amarelo{
+span{
     color: rgb(255, 183, 0);
 }
 
 .botao{
-    display: block;
+    display: inline-block;
     color: black;
     background-color: rgb(255, 183, 0);
     border: none;
